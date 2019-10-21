@@ -49,3 +49,13 @@ body {
   left: 292px;
   letter-spacing: -1.1px;
 }
+
+.subtitle-text {
+  font-size: 13px;
+  color: #686566;
+  position: relative;
+  position: relative;
+  letter-spacing: -0.5px;
+  top: -125px;
+  left: 373px;
+}
