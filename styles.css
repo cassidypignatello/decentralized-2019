@@ -78,3 +78,20 @@ body {
   top: -179px;
   left: 750px;
 }
+
+.percentage-text {
+  font-weight: bold;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  top: -212px;
+  left: 760px;
+}
+
+.offer-text {
+  font-size: 14px;
+  color: #fff;
+  position: relative;
+  top: -231px;
+  left: 809px;
+}
