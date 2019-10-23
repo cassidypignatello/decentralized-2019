@@ -113,6 +113,17 @@ body {
 	animation: flyToLeft 800ms forwards;
 }
 
+span {
+  display: none;
+  font-size: 13px;
+  color: #686566;
+}
+
+.container:hover span {
+  display: inline;
+  animation: show 800ms 1000ms both;
+}
+
 .subtitle-text {
   font-size: 13px;
   color: #686566;
@@ -125,6 +136,20 @@ body {
 
 .container:hover .subtitle-text {
 	display: none;
+}
+
+.build-text {
+  display: none;
+  font-size: 22px;
+  color: #212020;
+  position: relative;
+  top: -35px;
+  left: 275px;
+}
+
+.container:hover .build-text {
+  display: block;
+  animation: show 800ms 1000ms both;
 }
 
 .date-text {
