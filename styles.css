@@ -58,6 +58,16 @@ body {
 	display: none;
 }
 
+.meet-text {
+  display: none;
+  font-size: 13px;
+  color: #686566;
+}
+
+.container:hover .meet-text {
+  display: block;
+}
+
 .logo-bitshares {
   position: relative;
   width: 89px;
