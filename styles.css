@@ -8,6 +8,18 @@
 	}
 }
 
+@keyframes flyToLeft {
+  from {
+    top: -12px;
+    left: 292px;
+  }
+
+  to {
+    top: -4px;
+    left: 20px;
+  }
+}
+
 body {
   font-family: 'Tahoma';
   cursor: pointer;
@@ -62,10 +74,13 @@ body {
   display: none;
   font-size: 13px;
   color: #686566;
+  position: relative;
+  left: 10px;
 }
 
 .container:hover .meet-text {
   display: block;
+  animation: show 800ms 500ms both;
 }
 
 .logo-bitshares {
@@ -94,9 +109,9 @@ body {
   animation: show 800ms 500ms both;
 }
 
-/* .container:hover .title-text {
-	display: none;
-} */
+.container:hover .title-text {
+	animation: flyToLeft 800ms forwards;
+}
 
 .subtitle-text {
   font-size: 13px;
